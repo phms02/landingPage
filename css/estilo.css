@@ -230,24 +230,33 @@ detail {
     margin-bottom: 10px;
 }
 
-#detail-2 h3 {
+/* #detail-2 h3 {
     text-align: center;
-}
-
-#detail-2 ul li {
-    text-align: left;
-    padding-left: 325px;  /* Distância da margem esquerda! */
-}
-
+} */
 
 #detail-1 h3 {
     font-size: 3em;
     font-weight: 700;
 }
 
+#detail-2 ul li {
+    /* text-align: left; */
+    padding-left: 50px;  /* Distância da margem esquerda! */
+}
+
+#detail-3 ul li {
+    /* text-align: left; */
+    padding-left: 50px;  /* Distância da margem esquerda! */
+}
+
+
 .detail-description {
     width: 100%;
-    padding-left: 2em;
+    padding-left: 50px;
+}
+
+.detail-description h3 {
+    padding-left: 0px;
 }
 
 .detail-description ul {
